@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "./node_modules",
+        "./run",
+        "./build"
+    ]
+}

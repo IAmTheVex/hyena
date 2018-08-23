@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "outDir": "run-build",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "watch": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "src",
+        "build",
+        "node_modules"
+    ]
+}
